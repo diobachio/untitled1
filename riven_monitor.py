@@ -134,7 +134,7 @@ class RivenMarket():
 # ShowMeTheSellerMin(self,maxprice,roll=0)
 # wp 武器英文名
 
-if __name__ == '__main__':
+if __name__ == '__main__': #兰卡为例
     lanka = RivenMarket('Lanka')
     while True:
         lanka.get_data()

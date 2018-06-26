@@ -134,8 +134,8 @@ class RivenMarket():
 # ShowMeTheSellerMin(self,maxprice,roll=0)
 # wp 武器英文名
 
-if __name__ == '__main__': #兰卡为例
-    lanka = RivenMarket('Lanka')
+if __name__ == '__main__':
+    lanka = RivenMarket('Lanka') #兰卡为例
     while True:
         lanka.get_data()
         lanka.ShowTheStatusSeller(10000,'Multi')

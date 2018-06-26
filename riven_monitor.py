@@ -135,11 +135,11 @@ class RivenMarket():
 # wp 武器英文名
 
 if __name__ == '__main__':
-    lanka = RivenMarket('Lanka') #兰卡为例
+    lanka = RivenMarket('Lanka')
     while True:
         lanka.get_data()
         lanka.ShowTheStatusSeller(10000,'Multi')
         lanka.ShowTheCheap(1000)
-        time.sleep(300) #过多少秒循环1次
+        time.sleep(300)
 
 
